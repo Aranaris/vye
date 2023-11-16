@@ -1,6 +1,6 @@
 import {BrowserRouter, Route, Routes, Link} from 'react-router-dom';
 import logo from '../assets/react.svg';
-import App from '../App';
+import App from './App';
 
 function RouteSwitch() {
 	return (
