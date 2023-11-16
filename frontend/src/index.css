@@ -33,11 +33,6 @@
 	margin-left: auto;
 }
 
-*{
-	border: solid red 1px;
-}
-
-
 a {
 	color: #4499c0;
 	text-decoration: inherit;
@@ -72,6 +67,12 @@ button:hover {
 button:focus, button:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
 }
+
+.logo-link img {
+	margin: auto;
+	vertical-align: middle; 
+	display: inline-block;
+ }
   
 @media (prefers-color-scheme: light) {
   :root {
@@ -83,7 +84,7 @@ button:focus, button:focus-visible {
     color: #195f80;
   	border-bottom: 3px solid #195f80;
   }
-  
+
   button:hover {
 	background-color: #195f80;
   }
