@@ -1,4 +1,5 @@
 import '../styles/Home.css';
+import Skills from './Skills';
 
 function Home() {
 
@@ -23,6 +24,7 @@ function Home() {
 					<div className='description'>Designing database schemas and building visualizations to provide insights from complex data sets.</div>
 				</section>
 			</section>
+			<Skills />
 		</section>
 	);
 }

@@ -80,12 +80,21 @@ button:focus, button:focus-visible {
     background-color: #F4F3F2;
   }
 
-  a.nav-link{
+  a.nav-link {
     color: #195f80;
-  	border-bottom: 3px solid #195f80;
+  }
+
+  a.nav-link:hover {
+    color: #4499c0;;
+  	border-bottom: 3px solid #4499c0;
+  }
+
+  button {
+	color: #F4F3F2;
+	background-color: #195f80;
   }
 
   button:hover {
-	background-color: #195f80;
+	background-color: #4499c0;
   }
 }
