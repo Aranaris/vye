@@ -27,6 +27,7 @@
 	flex-direction: row;
 	gap: 30px;
 	justify-content: space-between;
+	text-align: center;
     font-size: clamp(1.125em,2vw,1.6em);
     line-height: 1.5;
 	font-weight: 300;
@@ -39,6 +40,18 @@
 	flex-basis: 0;
 	flex-grow: 1;
 	height: 100%;
+}
+
+.card-header {
+	font-size: 1.1em;
+	font-weight: 700;
+	margin-top: auto;
+    margin-bottom: 0.4em;
+
+}
+
+.description {
+	font-size: .9em;
 }
 
 .image {

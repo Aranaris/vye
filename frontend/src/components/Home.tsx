@@ -9,18 +9,18 @@ function Home() {
 			<section className='specialty-container'>
 				<section className='sme-card'>
 					<div className='image'>Image</div>
-					<div>Specialty Name</div>
-					<div>Experience Description lorem ipsum etc etc etc</div>
+					<div className='card-header'>Access Management</div>
+					<div className='description'>Developing SSO and Multi-Factor Authentication services using LDAP, OAuth2/OIDC and SAML.</div>
 				</section>
 				<section className='sme-card'>
 					<div className='image'>Image</div>
-					<div>Specialty Name</div>
-					<div>Experience Description</div>
+					<div className='card-header'>Platform Integrations</div>
+					<div className='description'>Facilitating data exchange with 3rd party endpoints via RESTful APIs, SFTP, and GraphQL.</div>
 				</section>
 				<section className='sme-card'>
 					<div className='image'>Image</div>
-					<div>Specialty Name</div>
-					<div className='description'>Experience Description</div>
+					<div className='card-header'>Data Analytics</div>
+					<div className='description'>Designing database schemas and building visualizations to provide insights from complex data sets.</div>
 				</section>
 			</section>
 		</section>
