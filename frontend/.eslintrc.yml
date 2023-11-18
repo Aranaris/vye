@@ -37,6 +37,9 @@ rules:
     - single
   quote-props:
     - error
+  jsx-quotes:
+    - error
+    - prefer-single
   semi:
     - error
     - always

@@ -5,8 +5,8 @@ function Home() {
 
 	return (
 		<section className='Home'>
-			<header className="section-header">Full Stack Engineering</header>
-			<section className="personal-intro">Hi, I'm Vince, a programmer with over 10 years of product experience building healthcare, chemical engineering, and identity solutions. Always looking for opportunities to solve problems with technology!</section>
+			<header className='section-header'>Full Stack Engineering</header>
+			<section className='personal-intro'>Hi, I'm Vince, a programmer with over 10 years of product experience building healthcare, chemical engineering, and identity solutions. Always looking for opportunities to solve problems with technology!</section>
 			<section className='specialty-container'>
 				<section className='sme-card'>
 					<div className='image'>Image</div>

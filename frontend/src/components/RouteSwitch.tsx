@@ -6,15 +6,15 @@ function RouteSwitch() {
 	return (
 		<BrowserRouter>
 			<section className='header'>
-				<Link className='logo-link' to="/"><img className="logo" src={logo} alt="logo"/></Link>
-				<Link className='nav-link' to="/">Home</Link>
-				<Link className='nav-link' to="/about/">About</Link>
-				<Link className='nav-link' to="/projects/">Portfolio</Link>
-				<Link className='nav-link' to="/articles/">Articles</Link>
-				<button className="right-nav">Get In Touch</button>
+				<Link className='logo-link' to='/'><img className='logo' src={logo} alt='logo'/></Link>
+				<Link className='nav-link' to='/'>Home</Link>
+				<Link className='nav-link' to='/about/'>About</Link>
+				<Link className='nav-link' to='/projects/'>Portfolio</Link>
+				<Link className='nav-link' to='/articles/'>Articles</Link>
+				<button className='right-nav'>Get In Touch</button>
 			</section>
 			<Routes>
-				<Route path="/" element={<Home />}/>
+				<Route path='/' element={<Home />}/>
 			</Routes>
 			<section className='footer'>Footer section</section>
 		</BrowserRouter>
