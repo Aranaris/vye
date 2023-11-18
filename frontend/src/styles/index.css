@@ -17,13 +17,10 @@
 	grid-gap: 1em;
 }
 
-#root section {
+.header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.header {
 	gap: 30px;
   	padding: 15px;
 	font-weight: 700;
@@ -78,6 +75,7 @@ button:focus, button:focus-visible {
   :root {
     color: #242424;
     background-color: #F4F3F2;
+	font-size: 1.25em;
   }
 
   a.nav-link {
