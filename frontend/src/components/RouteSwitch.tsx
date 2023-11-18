@@ -1,6 +1,8 @@
 import {BrowserRouter, Route, Routes, Link} from 'react-router-dom';
 import logo from '../assets/react.svg';
 import Home from './Home';
+import About from './About';
+
 
 function RouteSwitch() {
 	return (
@@ -15,6 +17,7 @@ function RouteSwitch() {
 			</section>
 			<Routes>
 				<Route path='/' element={<Home />}/>
+				<Route path='/about/' element={<About />}/>
 			</Routes>
 			<section className='footer'>Footer section</section>
 		</BrowserRouter>
