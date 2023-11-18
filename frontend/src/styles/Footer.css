@@ -1,0 +1,18 @@
+.Footer {
+	display: flex;
+	flex-direction: row;
+	color-scheme: light dark;
+	border-top: 2px solid #F4F3F2;
+	padding: 1em 2em;
+}
+
+.social-media-container {
+	margin-left: auto;
+}
+
+@media (prefers-color-scheme: light) {
+	.Footer {
+		border-top: 2px solid #4499c0;
+		color: #4499c0;
+	}
+}
