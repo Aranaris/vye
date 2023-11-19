@@ -1,9 +1,11 @@
 import '../styles/Projects.css';
+import Board from './Board';
 
 function Projects() {
 	return (
 		<section className='Projects'>
-			<header className='section-header'>Portfolio Projects</header>
+			<Board />
+			<section className='subsection-header'>Past Projects</section>
 			<section className='project-container'>
 				<div>Project Name</div>
 				<div>Screenshot</div>

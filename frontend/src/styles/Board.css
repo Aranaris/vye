@@ -1,0 +1,17 @@
+.Board {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+iframe {
+	transform: scale(0.85, 0.85);
+	transform-origin: top;
+}
+
+@media only screen and (width > 960px) {
+	iframe {
+		width: 1100px;
+		height: 480px;
+	}
+}
