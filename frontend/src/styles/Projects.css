@@ -1,0 +1,23 @@
+.Projects {
+	padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.Projects .section-header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.project-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 4fr;
+	row-gap: 30px;
+	margin: auto;
+}
+
+
+@media only screen and (width > 960px) {
+	.project-container {
+		max-width: 50em!important;
+	}
+}

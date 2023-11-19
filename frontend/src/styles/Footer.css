@@ -6,6 +6,11 @@
 	padding: 1em 2em;
 }
 
+.site-info {
+	display: flex;
+	flex-direction: column;
+}
+
 .social-media-container {
 	margin-left: auto;
 }

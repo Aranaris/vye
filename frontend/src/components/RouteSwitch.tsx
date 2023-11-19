@@ -3,6 +3,7 @@ import logo from '../assets/react.svg';
 import Home from './Home';
 import About from './About';
 import Footer from './Footer';
+import Projects from './Projects';
 
 
 function RouteSwitch() {
@@ -19,6 +20,7 @@ function RouteSwitch() {
 			<Routes>
 				<Route path='/' element={<Home />}/>
 				<Route path='/about/' element={<About />}/>
+				<Route path='/projects/' element={<Projects />}/>
 			</Routes>
 			<Footer />
 		</BrowserRouter>
