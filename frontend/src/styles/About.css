@@ -8,10 +8,6 @@
     padding-bottom: 4em;
 }
 
-.image {
-	margin: 0 auto 1em;
-}
-
 .company-card {
 	display: flex;
 	flex-direction: row;
@@ -21,6 +17,6 @@
 
 @media only screen and (width > 960px) {
 	p {
-		max-width: 32em!important;
+		max-width: 32em;
 	}
 }

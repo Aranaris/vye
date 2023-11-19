@@ -1,0 +1,16 @@
+.ArticleList {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.articles-container {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	text-align: center;
+	font-size: clamp(.9em,1.8vw,1.4em);
+	padding-top: 2em;
+	padding-bottom: 2em;
+}

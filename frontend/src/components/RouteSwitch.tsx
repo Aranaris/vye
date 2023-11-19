@@ -5,6 +5,7 @@ import About from './About';
 import Footer from './Footer';
 import Projects from './Projects';
 import Article from './Article';
+import ArticleList from './ArticleList';
 
 
 function RouteSwitch() {
@@ -22,7 +23,8 @@ function RouteSwitch() {
 				<Route path='/' element={<Home />}/>
 				<Route path='/about/' element={<About />}/>
 				<Route path='/projects/' element={<Projects />}/>
-				<Route path='/articles/:id' element={<Article/>}/>
+				<Route path='/articles/' element={<ArticleList />}/>
+				<Route path='/articles/:id' element={<Article />}/>
 			</Routes>
 			<Footer />
 		</BrowserRouter>

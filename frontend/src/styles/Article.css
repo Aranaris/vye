@@ -9,7 +9,7 @@
 }
 
 @media only screen and (width > 960px) {
-	.About {
+	.Article {
 		max-width: 1100px;
 	}
 }
