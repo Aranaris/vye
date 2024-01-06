@@ -12,6 +12,7 @@
 	margin-top: 0.4em;
     font-size: clamp(1.125em,2vw,1.6em);
     line-height: 1.5;
+	text-align: center;
 }
 
 .specialty-container {
@@ -51,7 +52,7 @@
 
 @media only screen and (width > 960px) {
 	.personal-intro {
-		max-width: 32em!important;
+		max-width: 36em!important;
 	}
 
 	.specialty-container {

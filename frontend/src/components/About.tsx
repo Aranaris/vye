@@ -27,7 +27,7 @@ function About() {
 				<section className='company-card'>
 					<div className='logo'>img</div>
 					<div className='company-name'>athenahealth</div>
-					<div className='highlights'>Sr. Product Management/Analytics Associate</div>
+					<div className='highlights'>Sr. Product Management Associate</div>
 				</section>
 				<section className='company-card'>
 					<div className='logo'>img</div>

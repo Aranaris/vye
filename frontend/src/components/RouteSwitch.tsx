@@ -1,5 +1,5 @@
 import {BrowserRouter, Route, Routes, Link} from 'react-router-dom';
-import logo from '../assets/react.svg';
+import logo from '../assets/logo_vye.svg';
 import Home from './Home';
 import About from './About';
 import Footer from './Footer';

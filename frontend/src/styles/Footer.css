@@ -14,10 +14,3 @@
 .social-media-container {
 	margin-left: auto;
 }
-
-@media (prefers-color-scheme: light) {
-	.Footer {
-		border-top: 2px solid #4499c0;
-		color: #4499c0;
-	}
-}
