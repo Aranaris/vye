@@ -49,14 +49,3 @@
 .image {
 	margin: 0 auto 1em;
 }
-
-@media only screen and (width > 960px) {
-	.personal-intro {
-		max-width: 36em!important;
-	}
-
-	.specialty-container {
-		max-width: 1100px;
-		margin-top: 2em;
-	}
-}

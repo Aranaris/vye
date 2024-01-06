@@ -29,9 +29,11 @@ function Article() {
 
 	return (
 		<section className='Article'>
-			<section className='section-header'>{retrievedData?.title}</section>
-			<p>{retrievedData?.content}</p>
-			<p>Posted on {retrievedData?.postdate}</p>
+			<header className='section-header'>{retrievedData?.title}</header>
+			<section className='article-container'>
+				<p>{retrievedData?.content}</p>
+				<p>Posted on {retrievedData?.postdate}</p>
+			</section>
 		</section>
 	);
 }

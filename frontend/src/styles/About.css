@@ -14,9 +14,3 @@
 	gap: 8px;
 	margin-right: auto;
 }
-
-@media only screen and (width > 960px) {
-	p {
-		max-width: 32em;
-	}
-}

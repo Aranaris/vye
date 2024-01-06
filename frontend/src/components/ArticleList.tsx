@@ -13,14 +13,14 @@ function ArticleList() {
 	const articles = [testdata];
 
 	return (
-		<div className='ArticleList'>
-			<section className='section-header'>All Articles</section>
-			<section className='articles-container'>
+		<section className='ArticleList'>
+			<header className='section-header'>All Articles</header>
+			<section className='article-list-container'>
 				{articles?.map((article, key) => (
 					<Link to={`/articles/${article.id}`} key={key}>{article.title} - {article.postdate}<br></br></Link>
 				))}
 			</section>
-		</div>
+		</section>
 	);
 }
 
